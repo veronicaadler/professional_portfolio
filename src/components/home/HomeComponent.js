@@ -1,20 +1,26 @@
 import { Button, Container, Row, Col} from 'react-bootstrap'
-import MedLottie from './MeditateComponent'
+import FlyingLottie from './FlyingLottieComponent'
 
 const HomeComponent = () => {
 
     return (
-        <Container className="home">
-         <Row className="vh-100 align-items-center">
-            <Col>
-            <MedLottie />
-            </Col>
-            <Col className="hometitle pt-5 align-items-center">
-            <h1 className="pb-0 pt-5">Hi, I'm Veronica Adler,</h1>
-            <h2 className="pb-3"><span className="bizname"> a front end developer.</span></h2>
-            <Button className="homebtn">View My Projects</Button>
+        <Container className="home text-center">
+            <div className="vh-100">
+         <Row className="align-items-center">
+         <Row className="pb-5">
+                <Col>
+                <FlyingLottie />
+                </Col>
+            </Row>
+            <Row>
+             <Col>
+            <h1 className="display-2">Hi! I'm <span className="bizname">Veronica Adler</span>,</h1>
+            <h2 className="pb-0"> a front end web developer.</h2>
+            <Button className="homebtn btn-light">See My Projects</Button>
             </Col>
             </Row>
+            </Row>
+            </div>
             
         </Container>
       );

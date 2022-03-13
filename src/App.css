@@ -1,35 +1,23 @@
-.hometitle {
+.home {
   text-align: center;
-  color: black;
+  color: white;
+  font-size: 96px;
+  text-shadow: 1px 1px black;
 }
 
 .homebtn {
-  background-color: #De5727;
-  color: white;
-  outline-color: white;
+  background-color: white;
+  color: black;
 }
 
 .homebtn:hover {
   background-color: black;
-}
-
-.lottiediv {
-animation-name: drive;
-animation-duration: 10s;
-animation-fill-mode: forward;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-
-@keyframes drive{
-    from{ transform: translateX(-1500px)}
-    to{ transform: translateX(5000px)}
-  }
+  color: white;
 }
 
 .bizname {
-  color: #De5727;
+  color: black
 }
-
 
 
 
