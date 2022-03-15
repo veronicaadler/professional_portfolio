@@ -1,7 +1,6 @@
 .home {
   text-align: center;
   color: white;
-  font-size: 96px;
   text-shadow: 1px 1px black;
 }
 
@@ -17,6 +16,27 @@
 
 .bizname {
   color: black
+}
+
+.portrait {
+  border-radius: 50%;
+  border-style: dotted;
+  border-color: #e6a66b;
+  border-width: 10px;
+
+}
+
+.aboutsection {
+  background-color: white;
+}
+
+.description {
+  color: black;
+}
+
+.navbar {
+  border-bottom: 2px solid #e6a66b;
+  color: white;
 }
 
 

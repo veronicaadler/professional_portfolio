@@ -17,7 +17,7 @@ const HomeComponent = () => {
 
 
     return (
-        <Container className="home text-center">
+        <Container className="home text-center" id="home">
             <div className="vh-100">
          <Row className="align-items-center">
          <Row className="pb-5">
@@ -29,10 +29,12 @@ const HomeComponent = () => {
              <Col>
             <h1 className="display-2">Hi! I'm <span className="bizname">Veronica Adler</span>,</h1>
             <h2 className="pb-0"> a front end web developer. </h2>
+            <a href="#about">
             <Button role="button" onMouseEnter={handleMouse} onMouseLeave={handleMouse} className="homebtn btn-light"><span>See My Projects </span>  
                 {iconChoice && <FontAwesomeIcon icon={faArrowRight} />}
                 {!iconChoice && <FontAwesomeIcon icon={faArrowDown} />}
             </Button>
+            </a>
             </Col>
             </Row>
             </Row>

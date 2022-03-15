@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie';
-import animationData from '../../lotties/meditate.json'
+import animationData from '../../../lotties/meditate.json'
 
 const MedLottie = () => {
     const defaultOptions = {
