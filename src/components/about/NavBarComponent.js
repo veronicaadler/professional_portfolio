@@ -4,7 +4,7 @@ const NavBarComponent = () => {
     return (
         <div>
         <Navbar sticky="top" bg="dark" variant="dark" className="navbar">
-        <Container>
+        <Container fluid>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>

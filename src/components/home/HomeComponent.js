@@ -1,5 +1,4 @@
 import { Button, Container, Row, Col} from 'react-bootstrap'
-import FlyingLottie from './FlyingLottieComponent'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +8,6 @@ const HomeComponent = () => {
 
 
     const [iconChoice, setIconChoice ] = useState(true)
-    console.log(iconChoice)
 
     const handleMouse = () => {
         setIconChoice(!iconChoice)
@@ -17,18 +15,11 @@ const HomeComponent = () => {
 
 
     return (
-        <Container className="home text-center" id="home">
-            <div className="vh-100">
-         <Row className="align-items-center">
-         <Row className="pb-5">
-                <Col>
-                <FlyingLottie />
-                </Col>
-            </Row>
+        <Container fluid className="home text-center vh-100 d-flex align-items-center justify-content-end" id="home">
             <Row>
              <Col>
-            <h1 className="display-2">Hi! I'm <span className="bizname">Veronica Adler</span>,</h1>
-            <h2 className="pb-0"> a front end web developer. </h2>
+            <h1 className="display-2">Hi! I'm Veronica Adler,</h1>
+            <h2 className="mb-4"> a front end web developer. </h2>
             <a href="#about">
             <Button role="button" onMouseEnter={handleMouse} onMouseLeave={handleMouse} className="homebtn btn-light"><span>See My Projects </span>  
                 {iconChoice && <FontAwesomeIcon icon={faArrowRight} />}
@@ -37,9 +28,6 @@ const HomeComponent = () => {
             </a>
             </Col>
             </Row>
-            </Row>
-            </div>
-            
         </Container>
       );
 }

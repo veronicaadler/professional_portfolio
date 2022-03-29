@@ -1,7 +1,9 @@
 .home {
-  text-align: center;
   color: white;
   text-shadow: 1px 1px black;
+  background-image: url('https://images.unsplash.com/photo-1512386233331-f023884a92e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1495&q=80');
+  background-size: cover;
+  
 }
 
 .homebtn {
@@ -21,7 +23,7 @@
 .portrait {
   border-radius: 50%;
   border-style: dotted;
-  border-color: #e6a66b;
+  border-color: #4F4538;
   border-width: 10px;
 
 }
@@ -35,7 +37,7 @@
 }
 
 .navbar {
-  border-bottom: 2px solid #e6a66b;
+  border-bottom: 4px solid #726D61;
   color: white;
 }
 
